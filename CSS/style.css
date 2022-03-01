@@ -1,0 +1,100 @@
+*{
+    padding:0px;
+    margin:0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+p{
+    font-size: 18px;
+}
+
+main{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    height: 500px;
+    max-width: 1440px;
+    padding:10px;
+    border-radius: 15px;
+
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+    
+}
+
+.image{
+}
+
+    #equilibrium{
+        height: 300px;
+        border-radius: 10px;
+    }
+
+.content{
+    padding:10px;
+}
+
+    .content h1{
+        color:white;
+        font-size: 20px;
+        margin-bottom: -15px;
+    }
+
+    #mainP{
+        color: hsl(215, 51%, 70%);
+        font-weight: 200;
+    }
+
+    #etherumP{
+        display:inline-block;
+        color: hsl(178, 100%, 50%);
+    }
+
+    #clockP{
+        display:inline-block;
+        float:right;
+        color: hsl(215, 51%, 70%);
+        font-weight: 100;
+    }
+
+    hr{
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    #avatar{
+        border: solid 1px white;
+        border-radius: 50px;
+        width: 40px;
+        display:inline-block;
+        float:left;
+        margin-right: 10px;
+    }
+
+    #avatarP{
+        display:inline-block;
+        color: hsl(215, 51%, 70%);
+       
+    }
+
+    #avatarP span{
+        color:white;
+        font-weight: 100;
+    }
+
+
+
+
